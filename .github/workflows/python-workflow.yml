@@ -15,7 +15,7 @@ jobs:
       
     - name: List files in the repository
       run: |
-        ls ${{ github.workspace }}
+        ls -lR ${{ github.workspace }}
 
     - name: Install dependencies
       run: |
